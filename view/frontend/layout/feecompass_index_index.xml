@@ -1,0 +1,15 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <link rel="stylesheet" src="https://fonts.googleapis.com/icon?family=Material+Icons" src_type="url"/>
+        <title>Feecompass Rankings</title>
+    </head>
+    <body>
+        <referenceContainer name="sidebar.main">
+            <block class="Feecompass\Rankings\Block\Index" name="feecompass.profile" template="Feecompass_Rankings::feecompass_profile.phtml" />
+        </referenceContainer>
+        <referenceContainer name="content">
+            <block class="Feecompass\Rankings\Block\Index" name="feecompass.result.placeholder" template="Feecompass_Rankings::feecompass_result_placeholder.phtml" />
+        </referenceContainer>
+    </body>
+</page>

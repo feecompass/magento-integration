@@ -1,0 +1,22 @@
+{
+  "name": "feecompass/magento-integration",
+  "description": "feeCOMPASS integration magento module",
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Piotr Buszka",
+      "email": "piotr.buszka@innect.eu"
+    }
+  ],
+  "require": {
+    "adhocore/jwt": "^1.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+        "Feecompass\\Rankings\\": "."
+    },
+    "files": [ "registration.php" ]
+  }
+
+}

@@ -1,0 +1,6 @@
+<?php
+  $p = $block->getChildBlock("feecompass.products");
+  $p->setCollection($block->getProductCollection());
+ 	$productList = $block->getChildHtml()
+?>
+<?= /* @noEscape */ $productList ?>

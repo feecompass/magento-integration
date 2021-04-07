@@ -1,0 +1,11 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <block class="Feecompass\Rankings\Block\Result" name="feecompass_result_result" template="Feecompass_Rankings::result.phtml">
+                <block class="Feecompass\Rankings\Block\ListProduct" name="feecompass.products" template="Magento_Catalog::product/list.phtml">
+                </block>
+            </block>
+        </referenceContainer>
+    </body>
+</page>

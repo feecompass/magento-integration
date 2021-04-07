@@ -1,0 +1,9 @@
+<?php 
+ if ($block->isActivated()) {
+ ?>
+<div class="row clearfix">
+        <script type="text/javascript" src=<?php echo $block->getConfigUrl()?> src_type="url"></script>
+        <script type="text/javascript" src=<?php echo $block->getClientUrl()?> src_type="url"></script>
+        <feecompass-profile></feecompass-profile>
+</div>
+ <?php } ?>
